@@ -1,0 +1,273 @@
+/*all*/
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+html{
+    
+    margin:auto;
+}
+
+* {
+  box-sizing:border-box
+}
+/*Homecover*/
+
+.homecover{
+    height: 450px;
+    position: relative;
+    background-image: url(https://codehs.com/uploads/2b9b7b4558e7bf6ef6853fd3fe982f03);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color:#0c963f;
+    width:inherit;
+    margin:0;
+}
+
+.homecover h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Quintessential", serif;
+    font-style:normal;
+    font-size: 12vw;
+    background-color: rgba(239, 239, 240, 0.2);
+    padding: 55px;
+}
+
+/*navbar*/
+
+
+.navbar{
+    background-color:#FFFFFF !important;
+}
+
+.navbar a{
+    font-family: "Georgia", serif;
+    color:black !important;
+}
+
+
+.navbar ul li a{
+    color:black !important;
+}
+.navbar ul li a:hover{
+    background-color: #71b589;
+    color:white !important;
+} 
+
+
+/*reveiws*/ 
+.reviews {
+    padding: 40px 0;
+
+}
+
+.reviews h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+}
+
+.review{
+    margin:20px;
+    padding-left:15px;
+    padding-right:15px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/*our story*/
+.story h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+}
+
+.story img{
+   height:20%;
+   text-align:horizontal;
+   padding:20px 0;
+
+}
+
+.story p{
+    font-size:28px;
+    padding:45px;
+}
+
+.story{
+    background-color:#71b589;
+    padding:30px 15%;
+    color:white;
+    text-align:center;
+    padding-left:15%;
+    padding-right:15%;
+
+}
+
+.btn{
+    text-align:center;
+    width:80%;
+    margin:auto;
+    margin-bottom:70px;
+    background-color:white;
+    font-size:22px;
+    color:#71b589;
+}
+.story h1{
+    margin-top:6%;
+}
+
+/*Reservations*/
+.reserve .btn-light{
+    background-color:white;
+    border:5px solid green;
+}
+
+.reserve p{
+    text-align:center;
+    font-size:20px;
+}
+
+.reserve h1{
+    color:#71b589;
+}
+
+/*Footer*/
+footer{
+    background-color:#ebebeb;
+    padding:20px;
+    text-align:center;
+}
+
+footer .container-fluid{
+    margin:auto;
+
+}
+
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
+footer h1{
+    font-size:25px;
+    font-family:Helvetica;
+    font-style:italic;
+}
+
+footer a{
+    color:black;
+}
+
+/*Other cover*/
+
+.othercover{
+    height: 300px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color:#71b589;
+    width:inherit;
+    margin:0;
+}
+
+.othercover h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Quintessential", serif;
+    font-style:normal;
+    font-size: 8vw;
+    padding: 55px;
+}
+
+/*OurStory*/
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  text-align:center;
+}
+.ourstory img{
+      padding: 10% 0;
+    width:40%;
+    height:40%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ourstory .x{
+    margin:auto;
+}
+
+/*Menuhome*/
+
+.menuhome h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+}
+
+.menuhome img{
+    width:17vw;
+    margin: 10px 3.8vw;
+}
+
+.menuhome .row{
+    margin:auto;
+}
+
+.menuhome{
+    margin:20px;
+    margin-top:40px;
+}
+
+.approach1 img{
+    height:30vh;
+    width:23vw;
+}
+
+.approach1{
+    margin:40px 0;
+    text-align:center;
+}
+
+.approach1 h3{
+    font-style:italic;
+    font-size:25px;
+}
+
+.approach1 .accordion{
+    margin:0 40px;
+}
+
+.orderbtn{
+    margin:0 30%;
+    height:50px;
+    width:40%;
+    margin-bottom:30px;
+}
+
+.copyright{
+    height:1100 px;
+    width:850px;
+    margin-left:30%;
+    margin-right:30%;
+}
