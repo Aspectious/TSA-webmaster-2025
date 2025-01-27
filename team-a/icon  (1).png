@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles-menu.css">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+        </style>
+        
+        
+        <!-- Font Awesome Icon Library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        .checked {
+          color: orange;
+        }
+        </style>
+
+        <title>Menu</title>
+    </head>
+    
+    
+    <body>
+        <navbar>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="container-fluid">
+                    <img src="https://codehs.com/uploads/2fb00b0cb86579ff11acfbd4da76e7d9" width="60px" height="60px" id=logo alt="Logo image" style="margin-left: 10px; margin-right:10px;"/>
+                    <a class="navbar-brand" href="index.html">Plantitude</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#galleries-menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse justify-content-end" id="galleries-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="menu.html">Menu</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="reserve.html">Reserve</a>
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"   role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                                    About Us
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-light">
+                                    <li><a class="dropdown-item" href="ourstory.html">Our Story</a></li>
+                                    <li><a class="dropdown-item" href="ourapproach.html">Our Approach</a></li>
+                                    <li><a class="dropdown-item" href="ourstaff.html">Our Staff</a></li>
+                                </ul>
+                            </li>
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="order.html">Order</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </navbar>
+        
+        <div class="container-fluid row menucover">
+            <h1>
+                Menu
+            </h1>
+        </div>
+        
+       <div class="container-fluid">
+                <div class="container-fluid row ">
+                        <div class="btn-group" role="group">
+                          <a type="button" class="btn" href="#breakfast">Breakfast</a>
+                          <a type="button" class="btn" href="#appetizers">Appetizers</a>
+                          <a type="button" class="btn" href="#main">Main Dishes</a>
+                          <a type="button" class="btn" href="#side">Side Dishes</a>
+                          <a type="button" class="btn" href="#kids">Kids' Meals</a>
+                          <a type="button" class="btn" href="#desserts">Desserts</a>
+                          <a type="button" class="btn" href="#beverages">Beverages</a>
+                        </div>
+                </div>
+        </div>
+        
+        <div class="container-fluid a" id="breakfast">
+            <h1>
+                Breakfast
+            </h1>
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Avocado Toast
+                    </h2>
+                    <img src="https://codehs.com/uploads/232d558e95e7c2a3124f1277aeed848d" alt="avacado toast">
+                    <p class="description">
+                        Whole-grain bread topped with mashed avocado, cherry tomatoes, and microgreens.
+                    </p>
+                    <p class="price">
+                        Price: $6.49
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Berry Smoothie Bowl
+                    </h2>
+                    <img src="https://codehs.com/uploads/200db19a70fd493a6e329d725d0e8b0c" alt="berry smoothie bowl">
+                    <p class="description">
+A thick smoothie made with blended mixed berries, topped with fresh fruit, granola, chia seeds, and a drizzle of honey.                    </p>
+                    <p class="price">
+                        Price: $8.99
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Veggie Omelette
+                    </h2>
+                    <img src="https://codehs.com/uploads/42cc5007c09b5b6ef544b8744c7590a4" alt="veggie omelette">
+                    <p class="description">
+A fluffy omelet filled with spinach, bell peppers, mushrooms, and cheese.                    </p>
+                    <p class="price">
+                        Price: $9.49
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Fluffy Berry Pancakes
+                    </h2>
+                    <img src="https://codehs.com/uploads/873b891bbedac3c0012cab60fe80aa6d" alt="fluffy berry pancakes">
+                    <p class="description">
+A stack of light pancakes topped with fresh berries, maple syrup, and a sprinkle of powdered sugar.                    </p>
+                    <p class="price">
+                        Price: $12.49
+                    </p>
+                </div>
+            </div>
+            
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Breakfast Burrito
+                    </h2>
+                    <img src="https://codehs.com/uploads/e3d39b6a26664a520f054607c53f3501" alt="breakfast burrito">
+                    <p class="description">
+                        A whole wheat tortilla filled with scrambled eggs, black beans, avocado, and opt salsa or guacamole.
+                    </p>
+                    <p class="price">
+                        Price: $8.99
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Fruit Salad 
+                    </h2>
+                    <img src="https://codehs.com/uploads/52b53cba8f53132ec16b670189cdf231" alt="fruit salad">
+                    <p class="description">
+                        A colorful mix of watermelon, kiwi, and pineapple topped off with fresh mint leaves.
+                    </p>
+                    <p class="price">
+                        Price: $5.49
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Oatmeal Bowl
+                    </h2>
+                    <img src="https://codehs.com/uploads/cbcda1e962d3f26d6d33e83d3e10c54f" alt="oatmeal bowl">
+                    <p class="description">
+Creamy oatmeal topped with sliced bananas, chia seeds, almonds, and a drizzle of honey.
+                    </p>
+                    <p class="price">
+                        Price: $6.99
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid a" id="appetizers">
+            <h1>
+                Appetizers
+            </h1>
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Stuffed Mushrooms
+                    </h2>
+                    <img src="https://codehs.com/uploads/76f9b3ad85671b43e875bc3cd06bf867" alt="stuffed mushrooms">
+                    <p class="description">
+                        Baby portobello mushrooms filled with breadcrumbs, vegan cream cheese, garlic, and parsley, baked until golden brown.
+                    </p>
+                    <p class="price">
+                        Price: $7 for 3 mushrooms
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Crispy Vegetable Spring Rolls
+                    </h2>
+                    <img src="https://codehs.com/uploads/ce9d4b14f653c90ec24cae6440512e26" alt="crispy vegetable spring rolls">
+                    <p class="description">
+Crispy rolls filled with shredded carrots, cabbage, and shiitake mushrooms, served with soy-ginger dipping sauce.
+                    </p>
+                    <p class="price">
+                        Price: $10 for 7 rolls
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Caprese Skewers 
+                    </h2>
+                    <img src="https://codehs.com/uploads/86ba75a296a757a2bd03787411a574d3" alt="caprese skewers">
+                    <p class="description">
+Cherry tomatoes, fresh mozzarella balls (or vegan cheese), and basil leaves on skewers, drizzled with balsamic glaze.                    </p>
+                    <p class="price">
+                        Price: $10 for 5 skewers
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Baked Tofu Bites
+                    </h2>
+                    <img src="https://codehs.com/uploads/c3e6246ba61d4aec42938b1d8c39a2a6" alt="baked tofu bites">
+                    <p class="description">
+Crispy, crunchy, and spicy breaded tofu bites served with celery and ranch or buffalo sauce.                     </p>
+                    <p class="price">
+                        Price: $16.99 for a bowl (14 bites) 
+                    </p>
+                </div>
+            </div>
+            
+            
+            </div>
+        </div>
+        
+        <div class="container-fluid a" id="main">
+            <h1>
+                Main Dishes
+            </h1>
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+ Butternut Squash Risotto
+                    </h2>
+                    <img src="https://codehs.com/uploads/43d25992d45e7c2385623e5fb655449e" alt="butternut squash risotto">
+                    <p class="description">
+Creamy risotto made with roasted butternut squash, Arborio rice, white wine, vegetable broth, and fresh sage.                    </p>
+                    <p class="price">
+                        Price: $12 for a bowl
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+    Eggplant Parmesan
+                    </h2>
+                    <img src="https://codehs.com/uploads/f641c58666ab4e59f54c96d6dcdbddc5" alt="eggplant parmesan">
+                    <p class="description">
+Breaded and baked eggplant slices layered with marinara sauce and mozzarella (or vegan cheese), served with spaghetti.                    </p>
+                    <p class="price">
+                        Price: $14.99
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+Thai Green Curry with Tofu and Vegetables
+                    </h2>
+                    <img src="https://codehs.com/uploads/7a3b6479f70160a16bcb10ba12ef088d" alt="Thai Green Curry with Tofu and vegetables">
+                    <p class="description">
+Creamy coconut milk-based curry with tofu, bell peppers, zucchini, and green beans, served with jasmine rice.                    </p>
+                    <p class="price">
+                        Price: $15.00 for a plate
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+Shepherd's Pie
+</h2>
+                    <img src="https://codehs.com/uploads/f017d8245f8266ca8201cc65dacad95f" alt="shepard's pie">
+                    <p class="description">
+A hearty casserole made with lentils, carrots, peas, and onions in a savory sauce, topped with mashed potatoes                    </p>
+                    <p class="price">
+                        Price: $15.99 per pan
+                    </p>
+                </div>
+            </div>
+            
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                         Roasted Red Pepper and Walnut Pasta 
+                    </h2>
+                    <img src="https://codehs.com/uploads/f04c8118c447dfb26cc461ff2610fdee" alt=" roasted red pepper and walnut pasta ">
+                    <p class="description">
+ A creamy, smoky sauce made from roasted red peppers, toasted walnuts, garlic, olive oil, and a touch of paprika, tossed with your choice of linguine or spaghetti. Garnished with fresh parsley and a sprinkle of crushed walnuts for crunch.
+                    </p>
+                    <p class="price">
+                        Price: $11.79
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+Sweet Potato and Black Bean Tacos                    </h2>
+                    <img src="https://codehs.com/uploads/06e31addb27d08a3bdf991538fb1315c" alt=" sweet potato and black bean tacos ">
+                    <p class="description">
+Zesty roasted sweet potatoes and black beans paired with avocado, pickled red onions, and fresh cilantro in soft corn tortillas, served with a lime wedge.
+                    </p>
+                    <p class="price">
+                        Price: $11.79 for 3 tacos
+                    </p>
+                </div>
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Mediterranean Chickpea Salad
+                    </h2>
+                    <img src="https://codehs.com/uploads/ba3be061879e0dedf077b43c61db8f25" alt="mediterranean chickpea salad">
+                    <p class="description">
+ Chickpeas, cherry tomatoes, cucumbers, red onions, Kalamata olives, and parsley tossed with lemon-olive oil dressing.
+                    </p>
+                    <p class="price">
+                        Price: $8.99 for a bowl
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid a" id="side">
+            <h1>
+                Side Dishes
+            </h1>
+            <div class="container-fluid row">
+                
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+Roasted Sweet Potato Wedges with Spicy Tahini Sauce
+                    </h2>
+                    <img src="https://codehs.com/uploads/556b390136247425b320aae9af093d22" alt="Roasted Sweet Potato Wedges with Spicy Tahini Sauce">
+                    <p class="description">
+                        Crispy sweet potato wedges served with a creamy tahini sauce spiced with paprika and lemon.
+                    </p>
+                    <p class="price">
+                        Price: $11.49
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+Grilled Corn with Lime and Chili
+                    </h2>
+                    <img src="https://codehs.com/uploads/c22042c00899fd26697c3f5a742beeee" alt="grilled corn with lime">
+                    <p class="description">
+Fresh corn on the cob brushed with lime juice, olive oil, and chili powder, grilled until smoky and tender.                    </p>
+                    <p class="price">
+                        Price: $14.99 for two corn on the cobs
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Creamy Tomato Basil Soup
+                    </h2>
+                    <img src="https://codehs.com/uploads/d18320c20c5aebb75e7389d6351c3651" alt="creamy tomato basil soup">
+                    <p class="description">
+A rich and creamy soup made with roasted tomatoes, garlic, and fresh basil, blended with coconut cream.                    </p>
+                    <p class="price">
+                        Price: $9.49
+                    </p>
+                </div>
+            </div>
+            
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Golden Turmeric Lentil Soup
+                    </h2>
+                    <img src="https://codehs.com/uploads/83b00e988714a776156e21256cf786ba" alt="Golden Turmeric Lentil Soup">
+                    <p class="description">
+                    A warming and fragrant soup made with red lentils, coconut milk, turmeric, ginger, and cumin, garnished with fresh cilantro.
+                    </p>
+                    <p class="price">
+                        Price: $9.49
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Roasted Cauliflower and Garlic Soup
+                    </h2>
+                    <img src="https://codehs.com/uploads/da80b9b67306ccee207319158a23704e" alt="Roasted Cauliflower and Garlic Soup">
+                    <p class="description">
+A creamy soup made by blending roasted cauliflower and garlic with vegetable broth and a touch of coconut cream.
+                    </p>
+                    <p class="price">
+                        Price: $9.49
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Vegetable Pho
+                    </h2>
+                    <img src="https://codehs.com/uploads/f8e8d3bd66253acd07eb68d7b9370619" alt="Vegetable Pho">
+                    <p class="description">
+                        A fragrant Vietnamese noodle soup with rice noodles, mushrooms, bok choy, carrots, and a deeply flavorful spiced broth. Served with fresh lime, bean sprouts, and herbs.
+                    </p>
+                    <p class="price">
+                        Price: $13.89
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="container-fluid a" id="kids">
+            <h1>
+                Kids' Meals
+            </h1>
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Cheesy Broccoli Mini Pizzas
+                    </h2>
+                    <img src="https://codehs.com/uploads/25b003342c995148986820ea02fb0136" alt="Cheesy Broccoli Mini Pizzas">
+                    <p class="description">
+                        Whole-grain mini pizza bases topped with marinara sauce, broccoli florets, and shredded cheese.
+                    </p>
+                    <p class="price">
+                        Price: $6.49 for 2 mini pizzas
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Zucchini Noodle Bowl
+                    </h2>
+                    <img src="https://codehs.com/uploads/366bf106cd4a16a3b1f9abce48e05ac1" alt="avacado toast">
+                    <p class="description">
+Spiralized zucchini "noodles" tossed with cherry tomatoes, a sprinkle of Parmesan cheese, and a light olive oil dressing.
+                    </p>
+                    <p class="price">
+                        Price: $12.39
+                    </p>
+                </div>
+            
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Mini Veggie Burgers
+                    </h2>
+                    <img src="https://codehs.com/uploads/0433a78d46e034ac14b66b3cd29cb5ab" alt="Mini Veggie Burgers">
+                    <p class="description">
+ Bite-sized patties made from mashed chickpeas, carrots, and breadcrumbs, served on slider buns with a dollop of ketchup.
+                    </p>
+                    <p class="price">
+                        Price: $4.49 per mini burger
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Veggie Sushi Rolls
+                    </h2>
+                    <img src="https://codehs.com/uploads/51128ed1cbdca3cc4311cf900979bff3" alt="Veggie Sushi Rolls">
+                    <p class="description">
+                        Sushi rolls made with cucumber, avocado, and carrot, wrapped in sushi rice and nori (seaweed). Served with a small cup of soy sauce for dipping.
+                    </p>
+                    <p class="price">
+                        Price: $6.49 for 5 rolls
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Spinach&Cheese Pockets
+                    </h2>
+                    <img src="https://codehs.com/uploads/7669efd5698b5d4815be31a1ed07529c" alt="Spinach&Cheese Pockets">
+                    <p class="description">
+                        Flaky pastry pockets stuffed with a cheesy spinach filling, baked until golden brown.
+                    </p>
+                    <p class="price">
+                        Price: $6.49
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid a" id="desserts">
+            <h1>
+                Desserts
+            </h1>
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                         Vegan Carrot Cake with Cashew Frosting
+                    </h2>
+                    <img src="https://codehs.com/uploads/fc536f3f599816178d671a66ca67e112" alt=" Vegan Carrot Cake with Cashew Frosting">
+                    <p class="description">
+Moist spiced carrot cake topped with creamy cashew-based frosting and chopped walnuts.
+                    </p>
+                    <p class="price">
+                        Price: $4.70 for a slice
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Berry Coconut Chia Pudding
+
+                    </h2>
+                    <img src="https://codehs.com/uploads/86b725d4e7282c5d8120d15e989b2036" alt="Berry Coconut Chia Pudding">
+                    <p class="description">
+Creamy chia pudding layered with mixed berries and shredded coconut.
+                    </p>
+                    <p class="price">
+                        Price: $7.69 per cup
+                    </p>
+                </div>
+                
+            
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                    Brownies
+                    </h2>
+                    <img src="https://codehs.com/uploads/32a3c04baf3148cde588d01376539307" alt="brownies">
+                    <p class="description">
+Delicious chocolate brownie that tastes like a traditional brownie but it's made with plant based ingredients.
+                    </p>
+                    <p class="price">
+                        Price: $2.99 per slice
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Chocolate Chip Cookies
+                    </h2>
+                    <img src="https://codehs.com/uploads/e166bd4d53c4f7584dffaa7abc236211" alt="Chocolate Chip Cookies">
+                    <p class="description">
+Delicious chocolate chip that tastes like a traditional cookie but it's made with plant based ingredients.
+                    </p>
+                    <p class="price">
+                        Price: $6.49
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid a" id="beverages">
+            <h1>
+                Beverages
+            </h1>
+            <div class="container-fluid row">
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Alani
+                    </h2>
+                    
+                    <p class="description">
+Choose from falvors like: Hawaiian Shaved Ice, Cherry Slush, Mimosa, Boozy, Cosmic Stardust, Rainbow Candy, Purple Cowboy, Aloha Pineapple, Skye, Peach Pop, Cherry Limeade, and Cotton Candy.                    </p>
+                    <p class="price">
+                        Price: $3.50 per can
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Prime
+                    </h2>
+                   
+                    <p class="description">
+Choose from falvors like: Tropical Punch, Blue Raspberry, Orange Mango, Lemon Lime, Grape, Strawberry Lemonade, Ice Pop, Metamoon, Kiwi Lime (Limited Edition), and Citrus Lime (Limited Edition).                     </p>
+                    <p class="price">
+                        Price: $2.50 per can
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+Black Coffee                    </h2>
+                    
+                    <p class="description">
+Black coffee tastes rich, smooth, and slightly bitter, with natural flavors that vary from earthy to subtly sweet.                    </p>
+                    <p class="price">
+                        Price: $3.19 per cup
+                    </p>
+                </div>
+                
+                <div class="container-fluid col-md-3">
+                    <h2>
+                        Apple/Orange Juice
+                    </h2>
+                    
+                    <p class="description">
+Apple juice is naturally sweet, crisp, and refreshing, with a smooth fruity flavor that's light and satisfying.Orange juice is bright, tangy, and refreshingly sweet, packed with a juicy citrus flavor that feels like sunshine in a glass.
+                    </p>
+                    <p class="price">
+                        Price: $1.99 per cup
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+    
+    <footer class="row">
+        <div class="container-fluid col-md-4 location">
+            <h1>
+                Location
+            </h1>
+            <p>
+                789 Green Drive, Pleasantville, KY 40000
+            </p>
+            
+            <hr class="dotted">
+
+            
+            <p class="copyright">
+                ©2025 Nishita Chaduvula and Deekshitha Dheeravath
+            </p>
+            
+            <a class="copyright" href="sources.html">
+                Sources
+            </a>
+            
+        </div>
+        <div class="container-fluid col-md-4">
+            <h1>
+                Hours
+            </h1>
+            <p>Monday-Friday: 7 AM - 8PM </p>
+            <p>Saturday: 9 AM - 8PM </p>
+            <p>Sunday: 10:30 AM - 8PM </p>
+        </div>
+        <div class="container-fluid col-md-4">
+            <h1>
+                Contact Us
+            </h1>
+            <p>
+                Instagram: @plantitude_official
+            </p>
+            <p>
+                YouTube: @plantitude_official
+            </p>
+            <p>
+                Email: contact.plantitude@gmail.com
+            </p>
+            <p>
+                Phone Number: 999-999-9999
+            </p>
+        </div>
+    </footer>
+</html>
