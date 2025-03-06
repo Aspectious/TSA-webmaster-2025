@@ -1,4 +1,4 @@
-body {
+ body {
             font-family: Arial, sans-serif;
             background-color: #FFFFFF;
             color: #2F4F4F;
@@ -23,8 +23,8 @@ body {
             font-weight: bold;
         }
         .farm-img {
-            width: 100%;
-            height: auto;
+            width:100%;
+            height:auto;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             margin-bottom: 15px;
